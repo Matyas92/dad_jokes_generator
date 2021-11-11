@@ -1,0 +1,53 @@
+* {
+
+    box-sizing: border-box;
+}
+
+body {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
+
+.wrapper {
+    width: 60%;
+    height: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(75, 179, 101);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1rem;
+
+}
+
+
+.joke {
+    background-color: antiquewhite;
+    font-size: 1.2rem;
+    font-weight: bold;
+    height: 40%;
+    padding: 2rem;
+    width: 80%;
+    border-radius: 1rem;
+
+}
+
+button {
+    padding: 1rem;
+    margin: 1rem;
+    border-radius: 1rem;
+    border-style: none;
+    color: antiquewhite;
+    font-size: 1.4rem;
+    background-color: rgb(71, 18, 131);
+    cursor: pointer;
+
+}
